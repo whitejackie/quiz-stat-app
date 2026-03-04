@@ -1,0 +1,156 @@
+{
+  "easy": [
+    {
+      "question": "Mis on Eesti pealinn?",
+      "options": ["Tartu", "Narva", "Tallinn", "Pärnu"],
+      "correctAnswer": "Tallinn"
+    },
+    {
+      "question": "Kuidas nimetatakse Tallinna keskaegset vanalinna?",
+      "options": ["Kesklinn", "Vanalinn", "Kadriorg", "Lasnamäe"],
+      "correctAnswer": "Vanalinn"
+    },
+    {
+      "question": "Millise mere ääres Tallinn asub?",
+      "options": ["Põhjameri", "Must meri", "Läänemeri", "Vahemeri"],
+      "correctAnswer": "Läänemeri"
+    },
+    {
+      "question": "Kuidas nimetatakse Tallinna keskaegset raekoda?",
+      "options": [
+        "Riia raekoda",
+        "Tallinna raekoda",
+        "Stockholmi raekoda",
+        "Vilniuse raekoda"
+      ],
+      "correctAnswer": "Tallinna raekoda"
+    },
+    {
+      "question": "Mis on selle künka nimi, kus asub Toompea loss?",
+      "options": ["Toompea", "Pirita", "Mustamäe", "Viimsi"],
+      "correctAnswer": "Toompea"
+    },
+    {
+      "question": "Millisesse võimsasse kaubandusliitu kuulus Tallinn keskajal?",
+      "options": [
+        "Rooma impeerium",
+        "Hansa Liit",
+        "Euroopa Liit",
+        "Viikingite Liit"
+      ],
+      "correctAnswer": "Hansa Liit"
+    },
+    {
+      "question": "Mis oli Tallinna ajalooline nimi keskajal?",
+      "options": ["Reval", "Dorpat", "Pernau", "Narvia"],
+      "correctAnswer": "Reval"
+    },
+    {
+      "question": "Millise Taani kuningaga on seotud Taani lipu legend Tallinnas?",
+      "options": [
+        "Christian IV",
+        "Valdemar II",
+        "Frederik V",
+        "Harald Sinihammas"
+      ],
+      "correctAnswer": "Valdemar II"
+    },
+    {
+      "question": "Milline on Tallinna vanim kirik?",
+      "options": [
+        "Oleviste kirik",
+        "Niguliste kirik",
+        "Toomkirik",
+        "Aleksander Nevski katedraal"
+      ],
+      "correctAnswer": "Toomkirik"
+    },
+    {
+      "question": "Milline sibulkuplitega katedraal ehitati Vene keisririigi ajal?",
+      "options": [
+        "Oleviste kirik",
+        "Niguliste kirik",
+        "Aleksander Nevski katedraal",
+        "Püha Vaimu kirik"
+      ],
+      "correctAnswer": "Aleksander Nevski katedraal"
+    },
+    {
+      "question": "Millistel sajanditel ehitati suurem osa Tallinna vanalinnast?",
+      "options": [
+        "8. sajandil",
+        "13.–16. sajandil",
+        "18. sajandil",
+        "20. sajandil"
+      ],
+      "correctAnswer": "13.–16. sajandil"
+    },
+    {
+      "question": "Kuidas nimetatakse vanalinna ümbritsevaid kaitsemüüre ja torne?",
+      "options": ["Tallinna kindlus", "Linnamüür", "Raudring", "Balti barjäär"],
+      "correctAnswer": "Linnamüür"
+    },
+    {
+      "question": "Millise pargi ja palee rajas Peeter I?",
+      "options": ["Kadriorg", "Telliskivi", "Rocca al Mare", "Pirita"],
+      "correctAnswer": "Kadriorg"
+    },
+    {
+      "question": "Milline impeerium valitses Tallinna enne Eesti iseseisvumist 1918. aastal?",
+      "options": [
+        "Osmanite impeerium",
+        "Vene impeerium",
+        "Prantsuse impeerium",
+        "Briti impeerium"
+      ],
+      "correctAnswer": "Vene impeerium"
+    },
+    {
+      "question": "Tallinna vanalinn kuulub UNESCO mille nimekirja?",
+      "options": [
+        "Kultuurifestivali paik",
+        "Maailmapärandi nimistu",
+        "Looduskaitseala",
+        "Ajalooline lahingupaik"
+      ],
+      "correctAnswer": "Maailmapärandi nimistu"
+    }
+  ],
+  "hard": [
+    {
+      "question": "Mis aastal sai Tallinn Lübecki linnaõigused?",
+      "options": ["1219", "1248", "1346", "1561"],
+      "correctAnswer": "1248"
+    },
+    {
+      "question": "Milline ordu kontrollis Toompea lossi pärast Taani aega?",
+      "options": [
+        "Saksa Ordu",
+        "Templirüütlid",
+        "Liivi Ordu",
+        "Johanniitide Ordu"
+      ],
+      "correctAnswer": "Liivi Ordu"
+    },
+    {
+      "question": "Kuidas nimetati 1343–1345 toimunud ülestõusu, mis mõjutas Tallinna?",
+      "options": [
+        "Põhjasõda",
+        "Jüriöö ülestõus",
+        "Liivi sõda",
+        "Talurahvasõda"
+      ],
+      "correctAnswer": "Jüriöö ülestõus"
+    },
+    {
+      "question": "Milline Rootsi kuningas kinnitas Tallinna privileegid 17. sajandil?",
+      "options": ["Gustav II Adolf", "Karl XII", "Erik XIV", "Gustav Vasa"],
+      "correctAnswer": "Gustav II Adolf"
+    },
+    {
+      "question": "Mis aastal alistus Tallinn Venemaale Põhjasõja ajal?",
+      "options": ["1700", "1704", "1710", "1721"],
+      "correctAnswer": "1710"
+    }
+  ]
+}
