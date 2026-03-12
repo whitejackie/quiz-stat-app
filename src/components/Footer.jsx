@@ -17,13 +17,13 @@ function Footer() {
               </h1>
               <a href="tel:+3726259300" className="mb-3 flex gap-2 text-[16px]">
                 <svg className="w-4.5 h-4.5">
-                  <use href="/src/assets/icons.svg#phone"></use>
+                  <use href="/icons.svg#phone"></use>
                 </svg>
                 +372 625 9300
               </a>
               <a href="mailto:stat@stat.ee" className="flex gap-2 text-[14px]">
                 <svg className="w-4.5 h-4.5">
-                  <use href="/src/assets/icons.svg#email"></use>
+                  <use href="/icons.svg#email"></use>
                 </svg>
                 stat@stat.ee
               </a>

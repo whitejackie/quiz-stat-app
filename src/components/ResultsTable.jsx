@@ -21,14 +21,14 @@ function Results({ userResponses }) {
               {response.correctAnswer ? (
                 <div className="flex">
                   <svg className="w-5 h-5 m-0.5">
-                    <use href="/src/assets/icons.svg#success"></use>
+                    <use href="/icons.svg#success"></use>
                   </svg>
                   <p>Õige</p>
                 </div>
               ) : (
                 <div className="flex">
                   <svg className="w-5 h-5 m-0.5">
-                    <use href="/src/assets/icons.svg#error"></use>
+                    <use href="/icons.svg#error"></use>
                   </svg>
                   <p>Vale</p>
                 </div>

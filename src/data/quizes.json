@@ -20,7 +20,7 @@
         {
           "difficulty": "easy",
           "question": "Millise mere ääres Tallinn asub?",
-          "options": ["Põhjameri", "Läänemeri", "Vahemeri"],
+          "options": ["Põhjameri", "Läänemeri", "Vahemeri", "Surnumeri"],
           "correctAnswer": "Läänemeri"
         },
         {
@@ -84,7 +84,7 @@
           "difficulty": "easy",
           "question": "Millistel sajanditel ehitati suurem osa Tallinna vanalinnast?",
           "options": [
-            "8. sajandil",
+            "7.-9. sajandil",
             "13.–16. sajandil",
             "18. sajandil",
             "20. sajandil"
@@ -121,14 +121,14 @@
         },
         {
           "difficulty": "easy",
-          "question": "Tallinna vanalinn kuulub UNESCO mille nimekirja?",
+          "question": "Millisesse UNESCO nimekirja kuulub Tallinna vanalinn?",
           "options": [
             "Kultuurifestivali paik",
-            "Maailmapärandi nimistu",
+            "Maailmapärand",
             "Looduskaitseala",
             "Ajalooline lahingupaik"
           ],
-          "correctAnswer": "Maailmapärandi nimistu"
+          "correctAnswer": "Maailmapärand"
         },
         {
           "difficulty": "hard",
@@ -138,7 +138,7 @@
         },
         {
           "difficulty": "hard",
-          "question": "Milline ordu kontrollis Toompea lossi pärast Taani aega?",
+          "question": "Milline ordu valitses Toompea lossi pärast Taani aega?",
           "options": [
             "Saksa Ordu",
             "Templirüütlid",
@@ -149,7 +149,7 @@
         },
         {
           "difficulty": "hard",
-          "question": "Kuidas nimetati 1343–1345 toimunud ülestõusu, mis mõjutas Tallinna?",
+          "question": "Kuidas nimetati 1343–1345 toimunud sündmust, mis mõjutas Tallinna?",
           "options": [
             "Põhjasõda",
             "Jüriöö ülestõus",
@@ -226,7 +226,7 @@
         },
         {
           "difficulty": "easy",
-          "question": "Milline laulva revolutsiooni sümboolne sündmus tõi kokku tohutul hulgal eestlasi lauluväljakule?",
+          "question": "Milline laulva revolutsiooni sümboolne sündmus tõi Lauluväljakule kokku tohutul hulgal eestlasi?",
           "options": [
             "Jüriöö ülestõus",
             "Öölaulupidu",
@@ -254,14 +254,14 @@
         },
         {
           "difficulty": "easy",
-          "question": "Millise inimketina tuntud sündmus toimus 1989. aastal Eesti, Läti ja Leedu vahel?",
+          "question": "Milline inimketina tuntud sündmus toimus 1989. aastal Eesti, Läti ja Leedu vahel?",
           "options": [
-            "Balti tee",
+            "Balti kett",
             "Raudtee kett",
             "Vabaduse rada",
             "Lauluring"
           ],
-          "correctAnswer": "Balti tee"
+          "correctAnswer": "Balti kett"
         },
         {
           "difficulty": "easy",
@@ -304,7 +304,7 @@
         },
         {
           "difficulty": "hard",
-          "question": "Mis aastal lõppes Põhjasõda Uusikaupunki rahuga, mille järel Eesti ala jäi Vene võimu alla?",
+          "question": "Mis aastal lõppes Põhjasõda Uusikaupunki rahuga, mille järel jäi Eesti ala Vene võimu alla?",
           "options": ["1709", "1710", "1721", "1741"],
           "correctAnswer": "1721"
         },
@@ -321,7 +321,7 @@
         },
         {
           "difficulty": "hard",
-          "question": "Milline sündmus toimus 1949. aasta märtsis ja puudutas tuhandeid eestlasi?",
+          "question": "Milline sündmus toimus 1949. aastal ja puudutas tuhandeid eestlasi?",
           "options": [
             "Rahareform",
             "Märtsiküüditamine",

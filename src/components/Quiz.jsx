@@ -66,7 +66,7 @@ function Quiz() {
                 }}
               >
                 <svg className="w-[18px] h-[18px]">
-                  <use href="/src/assets/icons.svg#arrow-link"></use>
+                  <use href="/icons.svg#arrow-link"></use>
                 </svg>
                 <span className="ml-2 font-bold text-[16px]">{quiz.title}</span>
               </li>

@@ -65,7 +65,7 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
         </h1>
         {!quizFinished && (
           <svg className="w-8 h-8 cursor-pointer" onClick={() => closeQuiz()}>
-            <use href="/src/assets/icons.svg#close"></use>
+            <use href="/icons.svg#close"></use>
           </svg>
         )}
       </div>
@@ -115,14 +115,14 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
                         <div className="flex">
                           <p>Õige vastus!</p>
                           <svg className="w-5 h-5 m-0.5">
-                            <use href="/src/assets/icons.svg#success"></use>
+                            <use href="/icons.svg#success"></use>
                           </svg>
                         </div>
                       ) : (
                         <div className="flex">
                           <p>Vale vastus!</p>
                           <svg className="w-5 h-5 m-0.5">
-                            <use href="/src/assets/icons.svg#error"></use>
+                            <use href="/icons.svg#error"></use>
                           </svg>
                         </div>
                       ))}
