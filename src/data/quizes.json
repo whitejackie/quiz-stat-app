@@ -1,0 +1,347 @@
+{
+  "quizzes": [
+    {
+      "key": "tallinnHistory",
+      "title": "Tallinna ajalugu",
+      "description": "Pane proovile oma teadmised Tallinna ajaloost! See viktoriin viib sind läbi linna erinevate ajastute – alates keskaegsest hansalinnast kuni tänapäevase pealinnani. Vastates küsimustele saad meenutada olulisi sündmusi, ajaloolisi paiku ja huvitavaid fakte Tallinna minevikust. Kas suudad õigesti vastata nii lihtsamatele kui ka keerulisematele küsimustele ja näidata, kui hästi sa Tallinna ajalugu tunned?",
+      "questions": [
+        {
+          "difficulty": "easy",
+          "question": "Mis on Eesti pealinn?",
+          "options": ["Tartu", "Narva", "Tallinn"],
+          "correctAnswer": "Tallinn"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Kuidas nimetatakse Tallinna keskaegset vanalinna?",
+          "options": ["Kesklinn", "Vanalinn", "Kadriorg"],
+          "correctAnswer": "Vanalinn"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millise mere ääres Tallinn asub?",
+          "options": ["Põhjameri", "Läänemeri", "Vahemeri"],
+          "correctAnswer": "Läänemeri"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Kuidas nimetatakse Tallinna keskaegset raekoda?",
+          "options": ["Riia raekoda", "Tallinna raekoda", "Vilniuse raekoda"],
+          "correctAnswer": "Tallinna raekoda"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis on selle künka nimi, kus asub Toompea loss?",
+          "options": ["Toompea", "Pirita", "Mustamäe", "Viimsi"],
+          "correctAnswer": "Toompea"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millisesse võimsasse kaubandusliitu kuulus Tallinn keskajal?",
+          "options": [
+            "Rooma impeerium",
+            "Hansa Liit",
+            "Euroopa Liit",
+            "Viikingite Liit"
+          ],
+          "correctAnswer": "Hansa Liit"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis oli Tallinna ajalooline nimi keskajal?",
+          "options": ["Reval", "Dorpat", "Pernau", "Narvia"],
+          "correctAnswer": "Reval"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millise Taani kuningaga on seotud Taani lipu legend Tallinnas?",
+          "options": ["Christian IV", "Valdemar II", "Frederik V"],
+          "correctAnswer": "Valdemar II"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline on Tallinna vanim kirik?",
+          "options": [
+            "Oleviste kirik",
+            "Niguliste kirik",
+            "Toomkirik",
+            "Aleksander Nevski katedraal"
+          ],
+          "correctAnswer": "Toomkirik"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline sibulkuplitega katedraal ehitati Vene keisririigi ajal?",
+          "options": [
+            "Oleviste kirik",
+            "Niguliste kirik",
+            "Aleksander Nevski katedraal",
+            "Püha Vaimu kirik"
+          ],
+          "correctAnswer": "Aleksander Nevski katedraal"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millistel sajanditel ehitati suurem osa Tallinna vanalinnast?",
+          "options": [
+            "8. sajandil",
+            "13.–16. sajandil",
+            "18. sajandil",
+            "20. sajandil"
+          ],
+          "correctAnswer": "13.–16. sajandil"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Kuidas nimetatakse vanalinna ümbritsevaid kaitsemüüre ja torne?",
+          "options": [
+            "Tallinna kindlus",
+            "Linnamüür",
+            "Raudring",
+            "Balti barjäär"
+          ],
+          "correctAnswer": "Linnamüür"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millise pargi ja palee rajas Peeter I?",
+          "options": ["Kadriorg", "Telliskivi", "Rocca al Mare", "Pirita"],
+          "correctAnswer": "Kadriorg"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline impeerium valitses Tallinna enne Eesti iseseisvumist 1918. aastal?",
+          "options": [
+            "Osmanite impeerium",
+            "Vene impeerium",
+            "Prantsuse impeerium",
+            "Briti impeerium"
+          ],
+          "correctAnswer": "Vene impeerium"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Tallinna vanalinn kuulub UNESCO mille nimekirja?",
+          "options": [
+            "Kultuurifestivali paik",
+            "Maailmapärandi nimistu",
+            "Looduskaitseala",
+            "Ajalooline lahingupaik"
+          ],
+          "correctAnswer": "Maailmapärandi nimistu"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Mis aastal sai Tallinn Lübecki linnaõigused?",
+          "options": ["1219", "1248", "1346", "1561"],
+          "correctAnswer": "1248"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Milline ordu kontrollis Toompea lossi pärast Taani aega?",
+          "options": [
+            "Saksa Ordu",
+            "Templirüütlid",
+            "Liivi Ordu",
+            "Johanniitide Ordu"
+          ],
+          "correctAnswer": "Liivi Ordu"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Kuidas nimetati 1343–1345 toimunud ülestõusu, mis mõjutas Tallinna?",
+          "options": [
+            "Põhjasõda",
+            "Jüriöö ülestõus",
+            "Liivi sõda",
+            "Talurahvasõda"
+          ],
+          "correctAnswer": "Jüriöö ülestõus"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Milline Rootsi kuningas kinnitas Tallinna privileegid 17. sajandil?",
+          "options": ["Gustav II Adolf", "Karl XII", "Erik XIV", "Gustav Vasa"],
+          "correctAnswer": "Gustav II Adolf"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Mis aastal alistus Tallinn Venemaale Põhjasõja ajal?",
+          "options": ["1700", "1704", "1710", "1721"],
+          "correctAnswer": "1710"
+        }
+      ]
+    },
+    {
+      "key": "estoniaHistory",
+      "title": "Eesti ajalugu",
+      "description": "Viktoriin Eesti ajaloo tähtsamatest sündmustest, valitsejatest, sõdadest ja iseseisvumisest. Sobib nii algajale kui ka neile, kes tahavad oma ajalooteadmisi proovile panna.",
+      "questions": [
+        {
+          "difficulty": "easy",
+          "question": "Mis aastal kuulutati Eesti esimest korda iseseisvaks?",
+          "options": ["1917", "1918", "1920", "1944"],
+          "correctAnswer": "1918"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis linn on Eesti pealinn?",
+          "options": ["Tartu", "Pärnu", "Narva", "Tallinn"],
+          "correctAnswer": "Tallinn"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline rahuleping lõpetas Eesti Vabadussõja?",
+          "options": [
+            "Versailles’ rahuleping",
+            "Tartu rahu",
+            "Moskva rahu",
+            "Brest-Litovski rahu"
+          ],
+          "correctAnswer": "Tartu rahu"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis aastal sõlmiti Tartu rahu?",
+          "options": ["1918", "1919", "1920", "1921"],
+          "correctAnswer": "1920"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Kuidas nimetatakse sõda, millega Eesti kaitses oma iseseisvust aastatel 1918–1920?",
+          "options": ["Liivi sõda", "Põhjasõda", "Vabadussõda", "Krimmi sõda"],
+          "correctAnswer": "Vabadussõda"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline riik okupeeris Eesti 1940. aastal?",
+          "options": ["Saksamaa", "Rootsi", "Nõukogude Liit", "Poola"],
+          "correctAnswer": "Nõukogude Liit"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis aastal taastas Eesti oma iseseisvuse?",
+          "options": ["1988", "1990", "1991", "1992"],
+          "correctAnswer": "1991"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline laulva revolutsiooni sümboolne sündmus tõi kokku tohutul hulgal eestlasi lauluväljakule?",
+          "options": [
+            "Jüriöö ülestõus",
+            "Öölaulupidu",
+            "Balti kett",
+            "Suur Tõll"
+          ],
+          "correctAnswer": "Öölaulupidu"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millises linnas kirjutati alla Tartu rahulepingule?",
+          "options": ["Tallinnas", "Narvas", "Tartus", "Pärnus"],
+          "correctAnswer": "Tartus"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Kes oli Eesti esimene president?",
+          "options": [
+            "Lennart Meri",
+            "Konstantin Päts",
+            "Arnold Rüütel",
+            "Jaan Tõnisson"
+          ],
+          "correctAnswer": "Konstantin Päts"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millise inimketina tuntud sündmus toimus 1989. aastal Eesti, Läti ja Leedu vahel?",
+          "options": [
+            "Balti tee",
+            "Raudtee kett",
+            "Vabaduse rada",
+            "Lauluring"
+          ],
+          "correctAnswer": "Balti tee"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis oli Eesti ajalooline saksakeelne nimi?",
+          "options": ["Livland", "Revalia", "Estland", "Baltika"],
+          "correctAnswer": "Estland"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline keskaegne linn kuulus Hansa Liitu?",
+          "options": ["Viljandi", "Tallinn", "Paide", "Võru"],
+          "correctAnswer": "Tallinn"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Kuidas nimetatakse 13. sajandi ristisõdu, mille käigus Eesti ala vallutati?",
+          "options": [
+            "Põhjasõjad",
+            "Muinasvõitlused",
+            "Vabadussõda",
+            "Ristisõjad Läänemerel"
+          ],
+          "correctAnswer": "Ristisõjad Läänemerel"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Mis aastal toimus Jüriöö ülestõus?",
+          "options": ["1219", "1248", "1343"],
+          "correctAnswer": "1343"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Millise lepinguga läks Põhja-Eesti 1561. aastal Rootsi võimu alla?",
+          "options": [
+            "Tartu rahu",
+            "Liivimaa ordumeistrite leping",
+            "Tallinna alistumisleping"
+          ],
+          "correctAnswer": "Tallinna alistumisleping"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Mis aastal lõppes Põhjasõda Uusikaupunki rahuga, mille järel Eesti ala jäi Vene võimu alla?",
+          "options": ["1709", "1710", "1721", "1741"],
+          "correctAnswer": "1721"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Kes juhtis Eesti iseseisvusmanifesti väljakuulutamise ajal Päästekomiteed?",
+          "options": [
+            "Konstantin Päts",
+            "Jaan Poska",
+            "Jüri Vilms",
+            "Johan Laidoner"
+          ],
+          "correctAnswer": "Jüri Vilms"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Milline sündmus toimus 1949. aasta märtsis ja puudutas tuhandeid eestlasi?",
+          "options": [
+            "Rahareform",
+            "Märtsiküüditamine",
+            "Vabadussõja algus",
+            "Balti kett"
+          ],
+          "correctAnswer": "Märtsiküüditamine"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Kes oli Eesti Vabariigi peaminister presidendi ülesannetes 1991. aasta iseseisvuse taastamise ajal?",
+          "options": [
+            "Edgar Savisaar",
+            "Arnold Rüütel",
+            "Mart Laar",
+            "Heinz Valk"
+          ],
+          "correctAnswer": "Edgar Savisaar"
+        }
+      ]
+    }
+  ]
+}
