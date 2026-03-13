@@ -1,4 +1,4 @@
-function Button({ type, onClick, children }) {
+function Button({ type, onClick, children, ...props }) {
   return (
     <button
       className={`
@@ -7,6 +7,7 @@ function Button({ type, onClick, children }) {
     font-bold py-2.75 px-5.25 border-2 border-black cursor-pointer w-fit
     `}
       onClick={onClick}
+      {...props}
     >
       {children}
     </button>

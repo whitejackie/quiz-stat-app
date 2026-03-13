@@ -34,7 +34,7 @@ function Quiz() {
   }
 
   function getRandomQuestions(questions, count) {
-    const shuffled = questions.sort(() => 0.5 - Math.random());
+    const shuffled = [...questions].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
   }
 
@@ -50,12 +50,9 @@ function Quiz() {
           <h1 className="text-[40px]/[1.125] font-bold xl:text-[60px]">
             Viktoriinid
           </h1>
-          <label
-            htmlFor="quiz"
-            className="block text-sm font-medium text-gray-700 mt-6"
-          >
+          <p className="block text-sm font-medium text-gray-700 mt-6">
             Vali viktoriin
-          </label>
+          </p>
           <ul className="mt-2 text-sm text-gray-500">
             {quizesData.quizzes.map((quiz) => (
               <li
@@ -65,7 +62,7 @@ function Quiz() {
                   openQuiz(quiz);
                 }}
               >
-                <svg className="w-[18px] h-[18px]">
+                <svg className="w-4.5 h-4.5">
                   <use href="/icons.svg#arrow-link"></use>
                 </svg>
                 <span className="ml-2 font-bold text-[16px]">{quiz.title}</span>

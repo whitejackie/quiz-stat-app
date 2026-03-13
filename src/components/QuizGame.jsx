@@ -60,11 +60,18 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
   return (
     <>
       <div className="flex justify-between items-center">
-        <h1 className="text-[40px]/[1.125] font-bold xl:text-[60px]">
+        <h1
+          className="text-[40px]/[1.125] font-bold xl:text-[60px]"
+          data-testid="quiz-title"
+        >
           {quiz.title}
         </h1>
         {!quizFinished && (
-          <svg className="w-8 h-8 cursor-pointer" onClick={() => closeQuiz()}>
+          <svg
+            className="w-8 h-8 cursor-pointer"
+            onClick={() => closeQuiz()}
+            data-testid="close-quiz"
+          >
             <use href="/icons.svg#close"></use>
           </svg>
         )}
@@ -73,7 +80,11 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
         {!quizStarted && (
           <div className="flex flex-col gap-4 items-center">
             <p className="text-center p-5">{quiz.description}</p>
-            <Button onClick={() => setQuizStarted(true)} type="primary">
+            <Button
+              onClick={() => setQuizStarted(true)}
+              type="primary"
+              data-testid="start-quiz"
+            >
               Alusta viktoriini
             </Button>
           </div>
@@ -94,7 +105,7 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
                 }}
               />
             </div>
-            <p className="mb-2 font-bold">
+            <p className="mb-2 font-bold" data-testid="question-text">
               {quiz.questions[currentQuestionIndex].question}
             </p>
             <div className="flex flex-col">
@@ -102,6 +113,7 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
                 (option, index) => (
                   <div
                     key={index}
+                    data-testid={`option-${index}`}
                     className={`border p-2 mb-2 flex justify-between
                         ${selectedOption ? "disabled" : "hover:bg-gray-200 cursor-pointer "}
                         ${selectedOption !== option ? "bg-white" : selectedOption === quiz.questions[currentQuestionIndex].correctAnswer ? "bg-green-200" : "bg-red-300"}
@@ -112,14 +124,20 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
                     {selectedOption === option &&
                       (selectedOption ===
                       quiz.questions[currentQuestionIndex].correctAnswer ? (
-                        <div className="flex">
+                        <div
+                          className="flex"
+                          data-testid="answer-feedback-correct"
+                        >
                           <p>Õige vastus!</p>
                           <svg className="w-5 h-5 m-0.5">
                             <use href="/icons.svg#success"></use>
                           </svg>
                         </div>
                       ) : (
-                        <div className="flex">
+                        <div
+                          className="flex"
+                          data-testid="answer-feedback-wrong"
+                        >
                           <p>Vale vastus!</p>
                           <svg className="w-5 h-5 m-0.5">
                             <use href="/icons.svg#error"></use>
@@ -131,7 +149,11 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
               )}
             </div>
             {selectedOption && (
-              <Button onClick={() => nextQuestion()} type="primary">
+              <Button
+                onClick={() => nextQuestion()}
+                type="primary"
+                data-testid="next-question"
+              >
                 {currentQuestionIndex === quizLength - 1
                   ? "Vaata tulemusi"
                   : "Järgmine küsimus"}
@@ -140,15 +162,26 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
           </>
         )}
         {quizFinished && (
-          <div className="flex flex-col items-center gap-1">
+          <div
+            className="flex flex-col items-center gap-1"
+            data-testid="quiz-results"
+          >
             <p>Viktoriin lõppenud!</p>
             <p>Said {score} punkti 100-st</p>
             <ResultsTable userResponses={userResponses} />
             <div className="flex gap-2 mt-4 md:flex-row flex-col items-center">
-              <Button onClick={() => restartQuiz()} type="primary">
+              <Button
+                onClick={() => restartQuiz()}
+                type="primary"
+                data-testid="restart-quiz"
+              >
                 Mängi uuesti
               </Button>
-              <Button onClick={() => closeQuiz()} type="secondary">
+              <Button
+                onClick={() => closeQuiz()}
+                type="secondary"
+                data-testid="choose-another-quiz"
+              >
                 Vali teine viktoriin
               </Button>
             </div>

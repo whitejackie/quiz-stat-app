@@ -342,6 +342,76 @@
           "correctAnswer": "Edgar Savisaar"
         }
       ]
+    },
+
+    {
+      "key": "estoniaSymbols",
+      "title": "Eesti sümbolid ja kultuur",
+      "description": "Pane proovile oma teadmised Eesti sümbolite, tähtpäevade, kultuuri ja traditsioonide kohta! See viktoriin aitab sul avastada, kui hästi tunned Eesti rahvusvärve, tuntud paiku, tähtsaid kombeid ja igapäevaeluga seotud fakte. Sobib hästi nii kiireks teadmiste kontrolliks kui ka lõbusaks harjutamiseks.",
+      "questions": [
+        {
+          "difficulty": "easy",
+          "question": "Mis värvid on Eesti lipul?",
+          "options": [
+            "Sinine, must ja valge",
+            "Punane, valge ja sinine",
+            "Roheline, must ja valge"
+          ],
+          "correctAnswer": "Sinine, must ja valge"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis on Eesti pealinn?",
+          "options": ["Tartu", "Tallinn", "Pärnu"],
+          "correctAnswer": "Tallinn"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline lind on Eesti rahvuslind?",
+          "options": ["Pääsuke", "Kurg", "Kotkas"],
+          "correctAnswer": "Pääsuke"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Milline lill on Eesti rahvuslill?",
+          "options": ["Rukkilill", "Roos", "Tulp"],
+          "correctAnswer": "Rukkilill"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis kuupäeval tähistatakse Eesti iseseisvuspäeva?",
+          "options": ["24. veebruaril", "23. juunil", "20. augustil"],
+          "correctAnswer": "24. veebruaril"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Millises linnas toimub tuntud laulu- ja tantsupidu?",
+          "options": ["Tallinnas", "Narvas", "Kuressaares"],
+          "correctAnswer": "Tallinnas"
+        },
+        {
+          "difficulty": "easy",
+          "question": "Mis on Eesti raha enne euro kasutuselevõttu?",
+          "options": ["Kroon", "Mark", "Rubla"],
+          "correctAnswer": "Kroon"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Mis aastal võeti Eestis kasutusele euro?",
+          "options": ["2008", "2010", "2011"],
+          "correctAnswer": "2011"
+        },
+        {
+          "difficulty": "hard",
+          "question": "Kes kirjutas Eesti rahvuseepose „Kalevipoeg”?",
+          "options": [
+            "Friedrich Reinhold Kreutzwald",
+            "Lydia Koidula",
+            "Juhan Liiv"
+          ],
+          "correctAnswer": "Friedrich Reinhold Kreutzwald"
+        }
+      ]
     }
   ]
 }
