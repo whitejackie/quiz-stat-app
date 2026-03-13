@@ -46,7 +46,7 @@ test.describe("Quiz", () => {
     await page.getByText(answer, { exact: true }).click();
   }
 
-  test("opens quiz", async ({ page }) => {
+  test("quiz page is being opened", async ({ page }) => {
     await page.goto("/");
 
     await expect(page.getByText("Viktoriinid")).toBeVisible();
@@ -54,7 +54,9 @@ test.describe("Quiz", () => {
     await expect(page.getByText(quizTitle)).toBeVisible();
   });
 
-  test("answers question", async ({ page }) => {
+  test("shows correct feedback after answering with the correct option", async ({
+    page,
+  }) => {
     await openQuiz(page);
 
     await answerCurrentQuestion(page, correctAnswers);
@@ -62,9 +64,7 @@ test.describe("Quiz", () => {
     await expect(page.getByTestId("answer-feedback-correct")).toBeVisible();
   });
 
-  test("score changes after answering a question correctly", async ({
-    page,
-  }) => {
+  test("updates the score after a correct answer", async ({ page }) => {
     await openQuiz(page);
 
     await expect(page.getByText("Punktid: 0")).toBeVisible();
@@ -75,7 +75,7 @@ test.describe("Quiz", () => {
     expect(scoreText).toMatch(/Punktid:\s(10|15)/);
   });
 
-  test("answers question and shows next question button", async ({ page }) => {
+  test("shows the next question button after answering", async ({ page }) => {
     await openQuiz(page);
 
     await answerCurrentQuestion(page, correctAnswers);
@@ -83,7 +83,9 @@ test.describe("Quiz", () => {
     await expect(page.getByTestId("next-question")).toBeVisible();
   });
 
-  test("tests wrong answer behavior", async ({ page }) => {
+  test("shows wrong answer feedback and keeps score unchanged", async ({
+    page,
+  }) => {
     await openQuiz(page);
 
     await answerCurrentQuestion(page, wrongAnswers);
@@ -92,7 +94,9 @@ test.describe("Quiz", () => {
     await expect(page.getByText("Punktid: 0")).toBeVisible();
   });
 
-  test("tests final result", async ({ page }) => {
+  test("shows the final result after answering all questions correctly", async ({
+    page,
+  }) => {
     await openQuiz(page);
 
     for (let i = 0; i < 9; i++) {
