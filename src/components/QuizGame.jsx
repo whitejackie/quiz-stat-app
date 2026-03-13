@@ -14,9 +14,7 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
   const quizLength = quiz.questions.length;
 
   function selectOption(option) {
-    console.log(option);
     setSelectedOption(option);
-    console.log(quiz.questions[currentQuestionIndex].difficulty === "easy");
     if (option === quiz.questions[currentQuestionIndex].correctAnswer) {
       setScore(
         score +
@@ -25,7 +23,6 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
             : 15),
       );
     }
-    console.log(quiz.questions[currentQuestionIndex].correctAnswer);
     setUserResponses([
       ...userResponses,
       {
@@ -43,9 +40,6 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setQuizFinished(true);
-      // Quiz lõppenud, saad teha midagi vastavalt vajadusele
-      console.log("Viktoriin lõppenud!");
-      console.log("Kasutaja vastused:", userResponses);
     }
   }
 

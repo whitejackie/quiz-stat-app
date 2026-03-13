@@ -10,7 +10,6 @@ function Quiz() {
     const generatedQuiz = generateQuiz(quiz);
     setSelectedQuiz(generatedQuiz);
     setQuizSelected(true);
-    console.log(generatedQuiz);
   }
 
   function generateNewQuiz(quizKey) {
