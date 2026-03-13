@@ -4,6 +4,12 @@
       "key": "tallinnHistory",
       "title": "Tallinna ajalugu",
       "description": "Pane proovile oma teadmised Tallinna ajaloost! See viktoriin viib sind läbi linna erinevate ajastute – alates keskaegsest hansalinnast kuni tänapäevase pealinnani. Vastates küsimustele saad meenutada olulisi sündmusi, ajaloolisi paiku ja huvitavaid fakte Tallinna minevikust. Kas suudad õigesti vastata nii lihtsamatele kui ka keerulisematele küsimustele ja näidata, kui hästi sa Tallinna ajalugu tunned?",
+      "feedback": {
+        "low": "Tundub, et Tallinna ajalugu vajab veel avastamist! Aga pole hullu – isegi kohalikud ei tea kõiki lugusid. Jaluta järgmine kord vanalinnas ringi ja vaata, kas märkad mõnda kohta, millest siin küsiti.",
+        "medium": "Pole paha! Tunned Tallinna ajalugu juba üsna hästi, kuid mõni detail jäi veel tabamata. Võib-olla järgmine kord saad juba tõelise vanalinna eksperdi tiitli.",
+        "high": "Väga hea tulemus! Sul on Tallinna ajaloost tugev ülevaade. Vanalinna tornid, müürid ja legendid pole sinu jaoks võõrad.",
+        "perfect": "Täiuslik tulemus! Sa tunned Tallinna ajalugu nagu tõeline giid. Kui keegi küsib vanalinna või Toompea lugude kohta, oled sina just see inimene, kes oskab vastata."
+      },
       "questions": [
         {
           "difficulty": "easy",
@@ -176,6 +182,12 @@
       "key": "estoniaHistory",
       "title": "Eesti ajalugu",
       "description": "Viktoriin Eesti ajaloo tähtsamatest sündmustest, valitsejatest, sõdadest ja iseseisvumisest. Sobib nii algajale kui ka neile, kes tahavad oma ajalooteadmisi proovile panna.",
+      "feedback": {
+        "low": "Eesti ajalugu on pikk ja sündmusterohke – tundub, et siin on veel palju avastada. Hea uudis on see, et iga küsimus oli väike samm uute teadmiste poole!",
+        "medium": "Tubli! Tunned Eesti ajaloo põhisündmusi, kuid mõni keerulisem detail jäi veel kahe silma vahele. Natuke harjutamist ja oled juba ajalooekspert.",
+        "high": "Väga tugev tulemus! Sul on hea ülevaade Eesti ajaloo tähtsatest sündmustest ja isikutest.",
+        "perfect": "Suurepärane! Sa tunned Eesti ajalugu erakordselt hästi – alates Vabadussõjast kuni iseseisvuse taastamiseni."
+      },
       "questions": [
         {
           "difficulty": "easy",
@@ -348,6 +360,12 @@
       "key": "estoniaSymbols",
       "title": "Eesti sümbolid ja kultuur",
       "description": "Pane proovile oma teadmised Eesti sümbolite, tähtpäevade, kultuuri ja traditsioonide kohta! See viktoriin aitab sul avastada, kui hästi tunned Eesti rahvusvärve, tuntud paiku, tähtsaid kombeid ja igapäevaeluga seotud fakte. Sobib hästi nii kiireks teadmiste kontrolliks kui ka lõbusaks harjutamiseks.",
+      "feedback": {
+        "low": "Eesti sümbolite ja traditsioonidega tasub veel tutvust teha. Aga pole midagi – nüüd tead juba natuke rohkem kui enne!",
+        "medium": "Tubli tulemus! Tunned Eesti sümboleid ja tähtpäevi üsna hästi, kuid mõni küsimus oli veel keeruline.",
+        "high": "Väga hea! Eesti sümbolid, traditsioonid ja kultuur pole sulle võõrad.",
+        "perfect": "Suurepärane! Sa tunned Eesti sümboleid ja kultuuri väga hästi – tõeline kultuuritundja."
+      },
       "questions": [
         {
           "difficulty": "easy",
@@ -368,8 +386,8 @@
         {
           "difficulty": "easy",
           "question": "Milline lind on Eesti rahvuslind?",
-          "options": ["Pääsuke", "Kurg", "Kotkas"],
-          "correctAnswer": "Pääsuke"
+          "options": ["Suitsupääsuke", "Kurg", "Kotkas"],
+          "correctAnswer": "Suitsupääsuke"
         },
         {
           "difficulty": "easy",
@@ -391,7 +409,7 @@
         },
         {
           "difficulty": "easy",
-          "question": "Mis on Eesti raha enne euro kasutuselevõttu?",
+          "question": "Mis oli Eesti raha enne euro kasutuselevõttu?",
           "options": ["Kroon", "Mark", "Rubla"],
           "correctAnswer": "Kroon"
         },

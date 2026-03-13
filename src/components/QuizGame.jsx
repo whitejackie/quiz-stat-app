@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "./Button";
 import ResultsTable from "./ResultsTable";
+import Feedback from "./Feedback";
 
 function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
   const [quizStarted, setQuizStarted] = useState(false);
@@ -167,7 +168,7 @@ function QuizGame({ quiz, generateNewQuiz, closeQuiz }) {
             data-testid="quiz-results"
           >
             <p>Viktoriin lõppenud!</p>
-            <p>Said {score} punkti 100-st</p>
+            <Feedback score={score} feedback={quiz.feedback} />
             <ResultsTable userResponses={userResponses} />
             <div className="flex gap-2 mt-4 md:flex-row flex-col items-center">
               <Button

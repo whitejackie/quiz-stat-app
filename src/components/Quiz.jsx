@@ -1,5 +1,5 @@
 import { useState } from "react";
-import quizesData from "../data/quizes.json";
+import quizzesData from "../data/quizzes.json";
 import QuizGame from "./QuizGame";
 
 function Quiz() {
@@ -14,7 +14,7 @@ function Quiz() {
   }
 
   function generateNewQuiz(quizKey) {
-    const quiz = quizesData.quizzes.find((q) => q.key === quizKey);
+    const quiz = quizzesData.quizzes.find((q) => q.key === quizKey);
     openQuiz(quiz);
   }
 
@@ -54,7 +54,7 @@ function Quiz() {
             Vali viktoriin
           </p>
           <ul className="mt-2 text-sm text-gray-500">
-            {quizesData.quizzes.map((quiz) => (
+            {quizzesData.quizzes.map((quiz) => (
               <li
                 key={quiz.key}
                 className="cursor-pointer hover:text-gray-600 flex items-center text-black my-2"

@@ -6,11 +6,11 @@ test.describe("Quiz", () => {
   const correctAnswers = {
     "Mis värvid on Eesti lipul?": "Sinine, must ja valge",
     "Mis on Eesti pealinn?": "Tallinn",
-    "Milline lind on Eesti rahvuslind?": "Pääsuke",
+    "Milline lind on Eesti rahvuslind?": "Suitsupääsuke",
     "Milline lill on Eesti rahvuslill?": "Rukkilill",
     "Mis kuupäeval tähistatakse Eesti iseseisvuspäeva?": "24. veebruaril",
     "Millises linnas toimub tuntud laulu- ja tantsupidu?": "Tallinnas",
-    "Mis on Eesti raha enne euro kasutuselevõttu?": "Kroon",
+    "Mis oli Eesti raha enne euro kasutuselevõttu?": "Kroon",
     "Mis aastal võeti Eestis kasutusele euro?": "2011",
     "Kes kirjutas Eesti rahvuseepose „Kalevipoeg”?":
       "Friedrich Reinhold Kreutzwald",
@@ -23,7 +23,7 @@ test.describe("Quiz", () => {
     "Milline lill on Eesti rahvuslill?": "Roos",
     "Mis kuupäeval tähistatakse Eesti iseseisvuspäeva?": "23. juunil",
     "Millises linnas toimub tuntud laulu- ja tantsupidu?": "Narvas",
-    "Mis on Eesti raha enne euro kasutuselevõttu?": "Mark",
+    "Mis oli Eesti raha enne euro kasutuselevõttu?": "Mark",
     "Mis aastal võeti Eestis kasutusele euro?": "2010",
     "Kes kirjutas Eesti rahvuseepose „Kalevipoeg”?": "Lydia Koidula",
   };
@@ -59,7 +59,7 @@ test.describe("Quiz", () => {
 
     await answerCurrentQuestion(page, correctAnswers);
 
-    expect(page.getByTestId("answer-feedback-correct")).toBeVisible();
+    await expect(page.getByTestId("answer-feedback-correct")).toBeVisible();
   });
 
   test("score changes after answering a question correctly", async ({
